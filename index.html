@@ -9,7 +9,99 @@
 </head>
 <body>
     <div class="container">
-        <h1>It's my first Pet-project</h1>
+        <h1>Автоматизация процесса подготовки нарядов-допусков</h1>
+        <form>
+            <label for="name1">Ответственный руководитель</label>
+            <select name="name1">
+                <option value="value1">Иванов Иван Иванович</option>
+                <option value="value1">Сидоров Петр Васильевич</option>
+                <option value="value1">Петров Дмитрий Владимирович</option>
+            </select>
+
+            <br><br>
+
+            <label for="name2">Вид работ</label>
+            <select name="name2">
+                <option value="value1">ТО оборудования КИП</option>
+                <option value="value1">Прокладка кабеля по эстакаде</option>
+                <option value="value1">Разработка траншеи вручную</option>
+            </select>
+
+            <br><br>
+
+            <label for="name3">Место проведения работ</label>
+            <select name="name3">
+                <option value="value1">МНС НПС-4</option>
+                <option value="value1">Кабельная эстакада от ПНС НПС-4 до МДП</option>
+                <option value="value1">Траншея от ПНС НПС-2 до НСН</option>
+            </select>
+
+            <br><br>
+
+            <label for="name4">Дата проведения работ</label>
+            <input type="date"> - <input type="date">
+
+            <br><br>
+
+            <label for="name5">Члены бригады</label>
+            <select name="name5">
+                <option value="value1">Ковров Игорь Евгеньевич</option>
+                <option value="value1">Золотухин Владимир Иванович</option>
+                <option value="value1">Трофимов Вадим Сергеевич</option>
+            </select>
+
+            <br><br>
+
+            <label for="name6">Опасные и вредные факторы</label>
+            <input type="checkbox" name="check1"> 
+            <label for="check1">Опасность взрыва, пожара</label>
+            <br>
+            <input type="checkbox" name="check2"> 
+            <label for="check2">Углеводороды нефти</label>
+            <br>
+            <input type="checkbox" name="check3"> 
+            <label for="check3">Травмирование</label>
+
+            <br><br>
+
+            <label for="name7">Список приложений</label>
+            <input type="checkbox" name="check1"> 
+            <label for="check1">Приложение 1</label>
+            <br>
+            <input type="checkbox" name="check2"> 
+            <label for="check2">Приложение 2</label>
+            <br>
+            <input type="checkbox" name="check3"> 
+            <label for="check3">Приложение 3</label>
+
+            <br><br>
+
+            <label for="name8">Дополнительные условия</label>
+            <input type="checkbox" name="check1"> 
+            <label for="check1">Выставить пожарный автомобиль</label>
+            <br>
+            <input type="checkbox" name="check2"> 
+            <label for="check2">Контроль за местом производства работ не менее 3-х часов</label>
+            <br>
+            <input type="checkbox" name="check3"> 
+            <label for="check3">Контроль за выполнением работ</label>
+
+            <br><br>
+
+            <label for="name9">Ответственный руководитель работ</label>
+            <select name="name5">
+                <option value="value1">Тихонов Егор Валерьевич</option>
+                <option value="value1">Миронов Евгений Викторович</option>
+                <option value="value1">Мяснов Александр Алексеевич</option>
+            </select>
+
+            <br><br>
+
+            <button>Отправить</button>
+
+        </form>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
